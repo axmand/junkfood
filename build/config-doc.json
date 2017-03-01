@@ -1,0 +1,10 @@
+{
+    "--": "../src",
+	"--title": "JakMap API",
+	"--warnings": [
+        "-link", 
+        "-no_doc"
+	],
+	"--seo": false,
+    "--builtin-classes": true
+}

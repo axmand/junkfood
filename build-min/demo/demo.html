@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!--触屏绘制和缩放-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>地图引擎使用示例</title>
+    <script src="js/jquery-1.11.1.min.js.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+</head>
+<body>
+    <!--功能导航侧边栏-->
+    <!--logo栏-->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">地图引擎使用示例</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">示例</a></li>
+                    <li><a href="codepage.html">代码</a></li>
+                    <li><a href="appframe.html">应用框架</a></li>
+                    <li><a href="contact.html">联系我们</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container alert  panel-default" style="padding-top:70px;">
+        <div class="row marketing">
+            <div class="col-lg-3">
+               <div id="navgate">
+                   <ul class="nav nav-pills  nav-stacked">
+                       <li class="active disabled"><a href="#">基础地图功能</a></li>
+                       <li><hr /></li>
+                       <li><a href="#">添加底图</a></li>
+                       <li><a href="#">地图标注</a></li>
+                       <li><a href="#">地图标绘</a></li>
+                       <li><a href="#">地图缩放、位置、比例尺、工具栏</a></li>
+                       <li class="active disabled"><a href="#">矢量图层</a></li>
+                       <li><hr /></li>
+                       <li><a href="#">添加矢量底图</a></li>
+                       <li><a href="#">矢量图层鼠标事件</a></li>
+                       <li class="active disabled"><a href="#">空间分析</a></li>
+                       <li><hr /></li>
+                       <li><a href="#">连接空间分析服务器</a></li>
+                       <li class="disabled"><a href="#">水质侵蚀度分析</a></li>
+                       <li class="disabled"><a href="#">克里金插值</a></li>
+                       <li class="disabled"><a href="#">缓冲区分析</a></li>
+                       <li class="active disabled"><a href="#">数据对接</a></li>
+                       <li><hr /></li>
+                       <li><a href="#">添加arcgis底图</a></li>
+                       <li><a href="#">添加高德底图</a></li>
+                   </ul>
+               </div>
+            </div>
+
+            <div class="col-lg-9">
+                <iframe id="mapContent" style="width:100%;" frameborder="0" scrolling="no" src="pages/basemap.html"></iframe>
+            </div>
+        </div>
+    </div>
+    <!--页脚-->
+    <div id="footer" class="footer text-center">
+        <p>&copy; 武汉 2014</p>
+    </div>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/strup.js"></script>
+</body>
+</html>

@@ -1,0 +1,214 @@
+﻿
+.Jake-ui-MapObject {
+    overflow:hidden;
+    background-color:#f0f0f0;
+    box-shadow:5px 5px 3px #888888;
+}
+
+/*比例尺工具条*/
+.Jake-ui-scaleBar{
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    position:relative;
+    bottom:115px;
+    left:50px;
+    font-size:0.75em;
+    line-height:35px;
+    box-shadow:2px 2px 2px #888888;
+    text-align:center;
+}
+
+/*location 显示鼠标位置经纬度工具*/
+.Jake-ui-locationTool {
+    border-bottom: 2px solid black;
+    /*border-left: 2px solid black;
+    border-right: 2px solid black;*/
+    position: relative;
+    bottom: 115px;
+    float: right;
+    right:50px;
+    font-size: 0.8em;
+    line-height: 35px;
+    /*box-shadow: 2px 2px 2px #888888;*/
+    text-align: center;
+}
+
+#facebookG{
+    width:180px;
+}
+
+.facebook_blockG {
+    background-color: #3E88D6;
+    border: 2px solid #000000;
+    float: left;
+    height: 32px;
+    margin-left: 3px;
+    width: 6px;
+    opacity: 0.2;
+    -moz-animation-name: bounceG;
+    -moz-animation-duration: 1.6s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: linear;
+    -moz-transform: scale(0.7);
+    -webkit-animation-name: bounceG;
+    -webkit-animation-duration: 1.6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: linear;
+    -webkit-transform: scale(0.7);
+    -ms-animation-name: bounceG;
+    -ms-animation-duration: 1.6s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: linear;
+    -ms-transform: scale(0.7);
+    -o-animation-name: bounceG;
+    -o-animation-duration: 1.6s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: linear;
+    -o-transform: scale(0.7);
+    animation-name: bounceG;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    transform: scale(0.7);
+}
+
+#blockG_1 {
+    -moz-animation-delay: 0.4800000000000001s;
+    -webkit-animation-delay: 0.4800000000000001s;
+    -ms-animation-delay: 0.4800000000000001s;
+    -o-animation-delay: 0.4800000000000001s;
+    animation-delay: 0.4800000000000001s;
+}
+
+#blockG_2{
+-moz-animation-delay:0.64s;
+-webkit-animation-delay:0.64s;
+-ms-animation-delay:0.64s;
+-o-animation-delay:0.64s;
+animation-delay:0.64s;
+}
+
+#blockG_3{
+-moz-animation-delay:0.8s;
+-webkit-animation-delay:0.8s;
+-ms-animation-delay:0.8s;
+-o-animation-delay:0.8s;
+animation-delay:0.8s;
+}
+
+#blockG_4 {
+    -moz-animation-delay: 0.96s;
+    -webkit-animation-delay: 0.96s;
+    -ms-animation-delay: 0.96s;
+    -o-animation-delay: 0.96s;
+    animation-delay: 0.96s;
+}
+
+#blockG_5 {
+    -moz-animation-delay: 1.12s;
+    -webkit-animation-delay: 1.12s;
+    -ms-animation-delay: 1.12s;
+    -o-animation-delay: 1.12s;
+    animation-delay: 1.12s;
+}
+
+#blockG_6 {
+    -moz-animation-delay: 1.28s;
+    -webkit-animation-delay: 1.28s;
+    -ms-animation-delay: 1.28s;
+    -o-animation-delay: 1.28s;
+    animation-delay: 1.28s;
+}
+
+#blockG_7 {
+    -moz-animation-delay: 1.44s;
+    -webkit-animation-delay: 1.44s;
+    -ms-animation-delay: 1.44s;
+    -o-animation-delay: 1.44s;
+    animation-delay: 1.44s;
+}
+
+#blockG_8 {
+    -moz-animation-delay: 1.6s;
+    -webkit-animation-delay: 1.6s;
+    -ms-animation-delay: 1.6s;
+    -o-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+}
+
+#blockG_9 {
+    -moz-animation-delay: 1.76s;
+    -webkit-animation-delay: 1.76s;
+    -ms-animation-delay: 1.76s;
+    -o-animation-delay: 1.76s;
+    animation-delay: 1.76s;
+}
+
+#blockG_10 {
+    -moz-animation-delay: 1.92s;
+    -webkit-animation-delay: 1.92s;
+    -ms-animation-delay:1.92s;
+    -o-animation-delay: 1.92s;
+    animation-delay: 1.92s;
+}
+
+@-moz-keyframes bounceG {
+    0% {
+        -moz-transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        -moz-transform: scale(0.7);
+        opacity: 0.1;
+    }
+}
+
+@-webkit-keyframes bounceG {
+    0% {
+        -webkit-transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(0.7);
+        opacity: 0.1;
+    }
+}
+
+@-ms-keyframes bounceG {
+    0% {
+        -ms-transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        -ms-transform: scale(0.7);
+        opacity: 0.1;
+    }
+}
+
+@-o-keyframes bounceG {
+    0% {
+        -o-transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        -o-transform: scale(0.7);
+        opacity: 0.1;
+    }
+}
+
+@keyframes bounceG {
+    0% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(0.7);
+        opacity: 0.1;
+    }
+}
